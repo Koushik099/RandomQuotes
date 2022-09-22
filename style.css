@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #686de0;
-  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(#db0b5f, #6f00ed);
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +41,7 @@ h3 {
 }
 
 .btn {
-  background-color: #9f68e0;
+  background-color: #e83a59;
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -53,5 +53,3 @@ h3 {
 .btn:active {
   transform: scale(0.98);
 }
-
-
